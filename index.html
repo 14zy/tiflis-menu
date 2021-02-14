@@ -35,21 +35,24 @@
 			color: black;
 			font-size: 18px;
             background-color: #FBF9FA;
+            
 
 		}
 
         .swiper-container {
             /* width: 600px; */
-            /* height: 300px; */
+            /* height: 480px; */
         }
 
-        .swiper-button-prev {
+        /* .swiper-button-prev {
+            margin-top: -60px;
             color: #2D2D45
         }
 
         .swiper-button-next {
+            margin-top: -60px;
             color: #2D2D45
-        }
+        } */
 
         .swiper-pagination-bullet-active {
             background-color: #2D2D45;
@@ -89,30 +92,61 @@
                 
                     <!-- Slides -->
                     <div class="swiper-slide">
-                        <p>Хашлома - - - - 300р</p>
-                        <img src="food/IMG_4976.jpg" alt="" width="100%">
-                        <p>Вкусный суп с курицей</p>
+                        
+                        <img src="food/IMG_5092.jpg" alt="" width="100%">
+                        <p><b>Суп Харчо</b></p>
+                        <p>Традиционный грузинский суп со специями</p>
+                        <p><b>561р</b></p>    
                     </div>
-                    <div class="swiper-slide">
 
-                        <p>Харчо - - - - 540р</p>
-                        <img src="food/IMG_5025.jpg" alt="" width="100%">
-                        <p>Вкусный суп с курицей</p>
-                    </div>
                     <div class="swiper-slide">
-                        <p>Борщ - - - - 350р</p>
-                        <img src="food/IMG_5028.jpg" alt="" width="100%">
-                        <p>Вкусный суп с курицей</p>
+                        
+                        <img src="food/IMG_5117.jpg" alt="" width="100%">
+                        <p><b>Домашняя суп-лапша с курицей и грибами</b></p>
+                        <p><b>418р</b></p>    
                     </div>
+
+                    <div class="swiper-slide">
+                        
+                        <img src="food/IMG_5083.jpg" alt="" width="100%">
+                        <p><b>Хашлама</b></p>
+                        <p>Бульон с отварными кусочками телячьей грудинки и зеленью</p>
+                        <p><b>829р</b></p>    
+                    </div>
+
+                    <div class="swiper-slide">
+                        
+                        <img src="food/IMG_5032.jpg" alt="" width="100%">
+                        <p><b>Щавелевый суп</b></p>
+                        <p><b>434р</b></p>    
+                    </div>
+
+                    <div class="swiper-slide">
+                        
+                        <img src="food/IMG_5025.jpg" alt="" width="100%">
+                        <p><b>Крем-суп из тыквы</b></p>
+                        <p>Морковь, лук, кедровый орех</p>
+                        <p><b>572р</b></p>    
+                    </div>
+
+                    <div class="swiper-slide">
+                        
+                        <img src="food/IMG_5028.jpg" alt="" width="100%">
+                        <p><b>Уха Боярская</b></p>
+                        <p><b>599р</b></p>
+                        
+                    </div>
+
+                    
                 
                 </div>
                 <!-- If we need pagination -->
-                
+                <br>
                 <div class="swiper-pagination"></div>
             
                 <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
                 
             </div>
 
@@ -141,12 +175,13 @@
         pagination: {
             el: '.swiper-pagination',
         },
+        spaceBetween: 20,
 
         // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        // },
 
         // And if we need scrollbar
         // scrollbar: {
