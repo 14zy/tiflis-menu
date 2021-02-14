@@ -4,7 +4,7 @@ const db = new GoogleSpreadsheetsDb(
 );
 
 
-db.getAll('eat-list!A1:L100', (err, rows) => {
+db.getAll('Супы!A1:L100', (err, rows) => {
     console.log(rows);
 })
 

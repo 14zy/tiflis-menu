@@ -7,19 +7,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">   
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="image_src" href="logo.jpg">
-		<!-- Yandex.Metrika counter -->
-		
-		
+        
+        
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />        
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+        <!-- Yandex.Metrika counter -->
+        
+
 		<!-- /Yandex.Metrika counter -->
     </head>
+
+    <!-- 
+    blue #2D2D45 
+    blue_menu #42404E
+    gold #D7CFC3, #F1EBB9
+    red_menu #C0A7AD
+    pomidor #C8463F
+    white_paper #FBF9FA
+    
+    -->
 	
 	<style>
 		div.bg {
 			/* background: url('pics/pic1.jpg') ; */
 			background-size: cover;
 			color: black;
-			font-size: 18px
+			font-size: 18px;
+            background-color: #FBF9FA;
+
 		}
+
+        .swiper-container {
+            /* width: 600px; */
+            /* height: 300px; */
+        }
+
+        .swiper-button-prev {
+            color: #2D2D45
+        }
+
+        .swiper-button-next {
+            color: #2D2D45
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #2D2D45;
+        }
+
 		p {font-family: Verdana, Geneva, sans-serif;}		
 		p.info {font-size: 12px}
 		a.no {
@@ -34,16 +69,56 @@
 			text-decoration: none; 
 			color: black;
 		}	
+
 	</style>
 	
 	<body style='text-align: center;'>
 		<div class="bg">
-			<img src="logo.jpg" width="100%">
+            <img src="logo.jpg" width="100%">
+            
             <br>
             
+            <h1>Супы</h1>
 
 
-			<br>
+
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <p>Хашлома - - - - 300р</p>
+                        <img src="food/IMG_4976.jpg" alt="" width="100%">
+                        <p>Вкусный суп с курицей</p>
+                    </div>
+                    <div class="swiper-slide">
+
+                        <p>Харчо - - - - 540р</p>
+                        <img src="food/IMG_5025.jpg" alt="" width="100%">
+                        <p>Вкусный суп с курицей</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Борщ - - - - 350р</p>
+                        <img src="food/IMG_5028.jpg" alt="" width="100%">
+                        <p>Вкусный суп с курицей</p>
+                    </div>
+                
+                </div>
+                <!-- If we need pagination -->
+                
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                
+            </div>
+
+            
+
+			<br><br><br>
 			<p><a class="no" target="_blank" href="https://www.instagram.com/tiflisskiy_dvorik_/"><img src="ig.png" width="16px"> tiflisskiy_dvorik_</a><br></p>
             <p>г. Москва,<br>ул. Остоженка, 32/2</p>
             <p>Доставка на дом<br> 📞 <a class="tel" href="tel:+79854913232">8 (985) 491-32-32</a></p>
@@ -56,8 +131,34 @@
 			</p>
         </div>
         
+        <script>
+        const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //     el: '.swiper-scrollbar',
+        // },
+        });
+
+        </script>
+
         <script src="js/google-spreadsheets-db.min.js"></script>
         <script src="js/veronika.js"></script>
         
+
 	</body>
 </html>
