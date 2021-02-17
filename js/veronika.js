@@ -66,9 +66,8 @@ categories.forEach(category => {
             elHTML = elHTML + `
             <div class="swiper-slide">
                 <img src="food/`+row.image +`" width="100%">
-                <p><b>`+row.name_ru +`</b></p>
-                <p>`+row.description_ru +`</p>
-                <p><b>`+row.price +`р.</b></p>    
+                <p class="dishTitle"><b>`+row.name_ru +` – `+ row.price + `р. </b></p>
+                <p class="description">`+row.description_ru +`</p>
             </div>
             `;
             el.innerHTML = elHTML;
@@ -94,9 +93,12 @@ function runEE() {
     if (i == 11) {
         const swiper = new Swiper('.swiper-container', {
                 direction: 'horizontal',
-                loop: true,
+                loop: false,
+                effect: "coverflow",
                 pagination: {
                     el: '.swiper-pagination',
+                    dynamicBullets: true,
+                    // type: "fraction"
                 },
                 spaceBetween: 20,
                 });
