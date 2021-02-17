@@ -1,7 +1,7 @@
 
             @font-face {
-                font-family: Segoe Script; /* Имя шрифта */
-                src: url(fonts/Segoe Script Regular.ttf); /* Путь к файлу со шрифтом */
+                font-family: Segoe Script; 
+                src: url('fonts/Segoe Script Regular.ttf') format('truetype');
             }
 
 		div.bg {
