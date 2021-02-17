@@ -3,169 +3,38 @@
     <head>
         <meta charset="utf-8">
         <title>Тиффлиский Дворик</title>
-        <meta name="description" content="Грузински ретсоран в центре Москвы🖤">
+        <meta name="description" content="Грузински ресторан в центре Москвы🖤">
         <meta name="viewport" content="width=device-width, initial-scale=1">   
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="image_src" href="logo.jpg">
         
-        
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />        
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+        <script src="js/swiper-bundle.min.js"></script>
         
         <!-- Yandex.Metrika counter -->
-        
-
 		<!-- /Yandex.Metrika counter -->
     </head>
 
-    <!-- 
-    blue #2D2D45 
-    blue_menu #42404E
-    gold #D7CFC3, #F1EBB9
-    red_menu #C0A7AD
-    pomidor #C8463F
-    white_paper #FBF9FA
-    
-    -->
-	
-	<style>
-		div.bg {
-			/* background: url('pics/pic1.jpg') ; */
-			background-size: cover;
-			color: black;
-			font-size: 18px;
-            background-color: #FBF9FA;
-            
-
-		}
-
-        .title {
-            font-size: 24px;   
-        }
-
-        .subtitle {
-            font-size: 20px;   
-        }
-
-        .swiper-container {
-            /* width: 600px; */
-            /* height: 480px; */
-        }
-
-        /* .swiper-button-prev {
-            margin-top: -60px;
-            color: #2D2D45
-        }
-
-        .swiper-button-next {
-            margin-top: -60px;
-            color: #2D2D45
-        } */
-
-        .swiper-pagination-bullet-active {
-            background-color: #2D2D45;
-        }
-
-		p {font-family: Verdana, Geneva, sans-serif;}		
-
-		p.info {font-size: 12px}
-		
-        a.no {
-			text-decoration: none; 
-			color: black; 
-		}
-		
-		a.tel {
-			text-decoration: ; 
-			text-decoration: none; 
-			color: black;
-		}	
-
-	</style>
 	
 	<body style='text-align: center;'>
 		<div class="bg">
             <img src="logo.jpg" width="100%">
-            
             <br>
-
             <img src="pics/venzel2.png" width="100%">
-
             <p class="title" style="margin-top: 10px">СУПЫ</p>
-            <!-- Slider main container -->
             <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <img src="food/IMG_5092.jpg" alt="" width="100%">
-                        <p><b>Суп Харчо</b></p>
-                        <p>Традиционный грузинский суп со специями</p>
-                        <p><b>561р</b></p>    
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="food/IMG_5117.jpg" alt="" width="100%">
-                        <p><b>Домашняя суп-лапша с курицей и грибами</b></p>
-                        <p><b>418р</b></p>    
-                    </div>
-
-                    <div class="swiper-slide">
-                        
-                        <img src="food/IMG_5083.jpg" alt="" width="100%">
-                        <p><b>Хашлама</b></p>
-                        <p>Бульон с отварными кусочками телячьей грудинки и зеленью</p>
-                        <p><b>829р</b></p>    
-                    </div>
-
-                    <div class="swiper-slide">
-                        
-                        <img src="food/IMG_5032.jpg" alt="" width="100%">
-                        <p><b>Щавелевый суп</b></p>
-                        <p><b>434р</b></p>    
-                    </div>
-
-                    <div class="swiper-slide">
-                        
-                        <img src="food/IMG_5025.jpg" alt="" width="100%">
-                        <p><b>Крем-суп из тыквы</b></p>
-                        <p>Морковь, лук, кедровый орех</p>
-                        <p><b>572р</b></p>    
-                    </div>
-
-                    <div class="swiper-slide">
-                        
-                        <img src="food/IMG_5028.jpg" alt="" width="100%">
-                        <p><b>Уха Боярская</b></p>
-                        <p><b>599р</b></p>
-                        
-                    </div>
-                
+                <div class="swiper-wrapper" id="Супы">
                 </div>
-                <!-- If we need pagination -->
+
                 <br>
                 <div class="swiper-pagination"></div>
-            
-                <!-- If we need navigation buttons -->
-                <!-- <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div> -->
             </div>
 
             <p class="title">САЛАТЫ</p>
             <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="food/1-1-12.jpg" alt="" width="100%">
-                        <p><b>С утиной грудкой</b></p>
-                        <p>Кедровыми орехами, зернами граната, малиновым соусом</p>
-                        <p><b>790р</b></p>    
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="food/1-1-12.jpg" alt="" width="100%">
-                        <p><b>Цезарь с курицей / креветками </b></p>
-                        
-                        <p><b>570/720р</b></p>    
-                    </div>
+                <div class="swiper-wrapper" id="Салаты">
+                    
                 </div>
                 <br><div class="swiper-pagination"></div>
             </div>
@@ -173,124 +42,53 @@
             
             <p class="title">ХОЛОДНЫЕ ЗАКУСКИ</p>
             <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="food/IMG_4749.jpg" alt="" width="100%">
-                        <p><b>Аджапсандал</b></p>
-                        <p>Запеченные баклажаны, паприка, томаты, специи, зелень</p>
-                        <p><b>571р</b></p>    
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="food/IMG_4742.jpg" alt="" width="100%">
-                        <p><b>Баклажаны, жаренные с орехами</b></p>
-                        <p>Баклажаны, фаршированные орехами, зеленью и зернами граната</p>
-                        <p><b>555р</b></p>    
-                    </div>
+                <div class="swiper-wrapper" id="Холодные закуски">
+                    
                 </div>
                 <br><div class="swiper-pagination"></div>
             </div>
 
             
-
             <p class="title">ГОРЯЧИЕ ЗАКУСКИ</p>
             <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="food/IMG_5056.jpg" alt="" width="100%">
-                        <p><b>Эларджи</b></p>
-                        <p>Гоми, заваренная с сыром «Сулугуни»</p>
-                        <p><b>470р</b></p>    
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="food/IMG_5050.jpg" alt="" width="100%">
-                        <p><b>Мамалыга</b></p>
-                        <p>С кукурузной крупы и муки, подается с сыром «Сулугуни»</p>
-                        <p><b>432р</b></p>    
-                    </div>
+                <div class="swiper-wrapper" id="Горячие закуски">
+                    
                 </div>
                 <br><div class="swiper-pagination"></div>
             </div>
             
-            
-
             
             <p class="title">ГОРЯЧИЕ БЛЮДА</p>
             <p class="subtitle">Мясо</p>
             <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="food/IMG_5111.jpg" alt="" width="100%">
-                        <p><b>Куч-Мачи</b></p>
-                        <p>Традиционное блюдо грузинской кухни – обжаренные потрошка с луком и 
-                            специями</p>
-                        <p><b>764р</b></p>    
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="food/IMG_5140.jpg" alt="" width="100%">
-                        <p><b>Купаты</b></p>
-                        <p>Домашние колбаски по-колхидски</p>
-                        <p><b>742р</b></p>    
-                    </div>
+                <div class="swiper-wrapper" id="Горячие блюда-Мясо">
+                    
                 </div>
                 <br><div class="swiper-pagination"></div>
             </div>
             <p class="subtitle">Птица</p>
             <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="food/IMG_4856.jpg" alt="" width="100%">
-                        <p><b>Чкмерули</b></p>
-                        <p>Цыпленок в чесночно-молочном соусе</p>
-                        <p><b>1008р</b></p>    
-                    </div>
+                <div class="swiper-wrapper" id="Горячие блюда-Птица">
+                    
                 </div>
                 <br><div class="swiper-pagination"></div>
             </div>
             <p class="subtitle">Рыба</p>
             <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="food/IMG_5130.jpg" alt="" width="100%">
-                        <p><b>Форель жареная</b></p>
-                        <p><b>1037р</b></p>    
-                    </div>
+                <div class="swiper-wrapper" id="Горячие блюда-Рыба">
+                    
                 </div>
                 <br><div class="swiper-pagination"></div>
             </div>
 
-
             <p class="title">ГОРЯЧИЕ БЛЮДА НА УГЛЯХ</p>
-            <!-- Slider main container -->
             <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <img src="food/IMG_5119.jpg" alt="" width="100%">
-                        <p><b>Люля-кебаб из ягнёнка</b></p>
-                        <p><b>904р</b></p>    
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="food/IMG_5151.jpg" alt="" width="100%">
-                        <p><b>Люля-кебаб из курицы</b></p>
-                        <p><b>760р</b></p>    
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="food/IMG_5126.jpg" alt="" width="100%">
-                        <p><b>Шашлык из курицы</b></p>
-                        <p><b>780р</b></p>    
-                    </div>
+                <div class="swiper-wrapper" id="Горячие блюда на углях">
 
                 </div>
-                <!-- If we need pagination -->
                 <br>
                 <div class="swiper-pagination"></div>
-            
-                <!-- If we need navigation buttons -->
-                <!-- <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div> -->
+
             </div>
             
 
@@ -298,13 +96,8 @@
                 ГАРНИРЫ И СОУСЫ
             </p>
             <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="food/IMG_4805.jpg" alt="" width="100%">
-                        <p><b>Кукуруза</b></p>
-                        
-                        <p><b>237р</b></p>    
-                    </div>
+                <div class="swiper-wrapper" id="Гарниры и соусы">
+                    
                 </div>
                 <br><div class="swiper-pagination"></div>
             </div>
@@ -313,17 +106,8 @@
                 ДЕСЕРТЫ
             </p>
             <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="food/1-1-38.jpg" alt="" width="100%">
-                        <p><b>Наполеон</b></p>
-                        <p><b>532р</b></p>    
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="food/1-1-44.jpg" alt="" width="100%">
-                        <p><b>Джанджуха</b></p>
-                        <p><b>532р</b></p>    
-                    </div>
+                <div class="swiper-wrapper" id="Десерты">
+                    
                 </div>
                 <br><div class="swiper-pagination"></div>
             </div>
@@ -332,18 +116,11 @@
                 НАПИТКИ ОТ ШЕФА
             </p>
             <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="food/IMG_4830.jpg" alt="" width="100%">
-                        <p><b>Клюквенный морс</b></p>
-                        <p>Традиционный грузинский суп со специями</p>
-                        <p><b>561р</b></p>    
-                    </div>
+                <div class="swiper-wrapper" id="Напитки от шефа">
+                    
                 </div>
                 <br><div class="swiper-pagination"></div>
             </div>
-
-
 
 
             <br>
@@ -360,7 +137,6 @@
             <p>г. Москва,<br>ул. Остоженка, 32/2</p>
             <p><a href="#">Оставить отзыв</a></p>
             
-            
             <br>
 			<img src="pics/venzel1.png" width="100%">
             <br>
@@ -372,35 +148,9 @@
             <br>
         </div>
         
-        <script>
-        const swiper = new Swiper('.swiper-container', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
-        spaceBetween: 20,
-
-        // Navigation arrows
-        // navigation: {
-        //     nextEl: '.swiper-button-next',
-        //     prevEl: '.swiper-button-prev',
-        // },
-
-        // And if we need scrollbar
-        // scrollbar: {
-        //     el: '.swiper-scrollbar',
-        // },
-        });
-
-        </script>
 
         <script src="js/google-spreadsheets-db.min.js"></script>
         <script src="js/veronika.js"></script>
         
-
 	</body>
 </html>

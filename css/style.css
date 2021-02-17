@@ -1,0 +1,67 @@
+
+            @font-face {
+                font-family: Segoe Script; /* Имя шрифта */
+                src: url(fonts/Segoe Script Regular.ttf); /* Путь к файлу со шрифтом */
+            }
+
+		div.bg {
+			/* background: url('pics/pic1.jpg') ; */
+			background-size: cover;
+			color: black;
+			font-size: 18px;
+            background-color: #FBF9FA;
+
+            
+            
+
+		}
+
+        .title {
+            font-size: 24px;   
+            font-family: "Segoe Script";
+        }
+
+        .subtitle {
+            font-size: 20px;   
+        }
+
+        .swiper-container {
+            /* width: 600px; */
+            /* height: 480px; */
+        }
+
+        /* .swiper-button-prev {
+            margin-top: -60px;
+            color: #2D2D45
+        }
+
+        .swiper-button-next {
+            margin-top: -60px;
+            color: #2D2D45
+        } */
+
+        .swiper-pagination-bullet-active {
+            background-color: #2D2D45;
+        }
+
+		p {font-family: Arial;}		
+
+		p.info {font-size: 12px}
+		
+        a.no {
+			text-decoration: none; 
+			color: black; 
+		}
+		
+		a.tel {
+			text-decoration: ; 
+			text-decoration: none; 
+			color: black;
+		}	
+
+        /* blue #2D2D45 
+    blue_menu #42404E
+    gold #D7CFC3, #F1EBB9
+    red_menu #C0A7AD
+    pomidor #C8463F
+    white_paper #FBF9FA */
