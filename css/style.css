@@ -1,8 +1,7 @@
-
-            @font-face {
-                font-family: Segoe Script; 
-                src: url('fonts/Segoe Script Regular.ttf') format('truetype');
-            }
+        @font-face {
+            font-family: "Segoe Script"; 
+            src: url('http://tiflis-menu.ru/fonts/Segoe Script Regular.ttf') format('truetype');
+        }
 
 		div.bg {
 			/* background: url('pics/pic1.jpg') ; */
@@ -10,9 +9,6 @@
 			color: black;
 			font-size: 18px;
             background-color: #FBF9FA;
-
-            
-            
 
 		}
 
