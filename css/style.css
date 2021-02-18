@@ -4,8 +4,8 @@
         }
 
 		div.bg {
-			/* background: url('pics/pic1.jpg') ; */
-			background-size: cover;
+			background: url('../pics/texture6.jpg') ;
+			/* background-size: cover; */
 			color: black;
 			font-size: 18px;
             background-color: #FBF9FA;
@@ -13,6 +13,7 @@
 		}
 
         .title {
+            color: #42404E;
             font-size: 22px;   
             font-family: "Segoe Script";
             text-align: left;
@@ -39,6 +40,7 @@
         }
 
         .dishTitle {
+            color: #42404E;
             padding-left: 10px;
             padding-right: 10px;
             margin-top: 10px;
@@ -79,7 +81,7 @@
 			color: black;
 		}	
 
-        /* blue #2D2D45 
+    /* blue #2D2D45 
     blue_menu #42404E
     gold #D7CFC3, #F1EBB9
     red_menu #C0A7AD
