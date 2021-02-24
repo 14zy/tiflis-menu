@@ -1,10 +1,16 @@
-        @font-face {
+html {
+    scroll-behavior: smooth!important;;
+  }
+
+@font-face {
             font-family: "Segoe Script"; 
             src: url('https://tiflis-menu.ru/fonts/Segoe Script Regular.ttf') format('truetype');
         }
 
+        
+
 		div.bg {
-			background: url('../pics/texture6.jpg') ;
+			background: url('../pics/texture8.jpg') ;
 			/* background-size: cover; */
 			color: black;
 			font-size: 18px;
@@ -14,7 +20,7 @@
 
         .title {
             color: #42404E;
-            font-size: 22px;   
+            font-size: 24px;   
             font-family: "Segoe Script";
             text-align: left;
             padding-left: 10px;
@@ -24,7 +30,7 @@
 
         .subtitle {
             font-family: "Segoe Script";
-            font-size: 18px;   
+            font-size: 20px;   
             text-align: left;
             padding-left: 10px;
             /* margin-top: -5px; */
@@ -50,6 +56,10 @@
         .swiper-container {
             /* width: 600px; */
             height: 400px;
+        }
+
+        .swiper-container img{
+            border-radius: 10px;
         }
 
         /* .swiper-button-prev {

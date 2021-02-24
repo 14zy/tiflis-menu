@@ -92,13 +92,14 @@ function runEE() {
 
     if (i == 11) {
         const swiper = new Swiper('.swiper-container', {
+                slidesPerView: 1,
                 direction: 'horizontal',
                 loop: false,
                 effect: "coverflow",
                 pagination: {
                     el: '.swiper-pagination',
                     dynamicBullets: true,
-                    // type: "fraction"
+                    type: "fraction"
                 },
                 spaceBetween: 20,
                 });
@@ -110,6 +111,41 @@ function runEE() {
 
      
 
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
+//     console.log(anchor);
+
+//     anchor.addEventListener('click', function (e) {
+//         e.preventDefault();
+        
+//         console.log(e);
+//         console.log(this);
+        
+
+//         // document.querySelector(this.getAttribute('href')).scrollIntoView({
+//         //     behavior: 'smooth'
+//         // });
+
+//         var id = this.getAttribute('href');
+//         console.log(id);
+
+//         element = document.getElementById(id.substring(1));
+
+//         console.log(element);
+
+//         // element.scrollIntoView({
+//         //     behavior: 'smooth'
+//         // });
+
+//         document.getElementById('body').scrollTop = "200";
+
+//         document.getElementById('body').scrollIntoView({
+//             behavior: 'smooth'
+//         });
+
+        
+//     });
+// });
 
 
 
