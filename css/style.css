@@ -10,16 +10,16 @@ html {
         
 
 		div.bg {
-			background: url('../pics/texture8.jpg') ;
+			/* background: url('../pics/texture8.jpg') ; */
 			/* background-size: cover; */
 			color: black;
 			font-size: 18px;
-            background-color: #FBF9FA;
+            background-color: #2D2D45 ;
 
 		}
 
         .title {
-            color: #42404E;
+            color: #FFFFE8;
             font-size: 24px;   
             font-family: "Segoe Script";
             text-align: left;
@@ -30,6 +30,7 @@ html {
 
         .subtitle {
             font-family: "Segoe Script";
+            color: #FFFFE8;
             font-size: 20px;   
             text-align: left;
             padding-left: 10px;
@@ -39,14 +40,14 @@ html {
 
         .description {
             font-size: 12px;   
-            color: #333;
+            color: #FFFFE8;
             margin-top: -5px;
             padding-left: 10px;
             padding-right: 10px;
         }
 
         .dishTitle {
-            color: #42404E;
+            color: #FFFFE8;
             padding-left: 10px;
             padding-right: 10px;
             margin-top: 10px;
@@ -55,7 +56,7 @@ html {
 
         .swiper-container {
             /* width: 600px; */
-            height: 400px;
+            height: 420px;
         }
 
         .swiper-container img{
@@ -76,24 +77,37 @@ html {
             background-color: #2D2D45;
         }
 
-		p {font-family: Arial;}		
+        .swiper-pagination-fraction {
+            color: #FFFFE8
+        }
+
+		p {
+            font-family: Arial;
+            color: #FFFFE8;
+        }		
 
 		p.info {font-size: 12px}
 		
         a.no {
 			text-decoration: none; 
-			color: black; 
+			color: #FFFFE8; 
 		}
 		
 		a.tel {
 			text-decoration: ; 
 			text-decoration: none; 
-			color: black;
+			color: #FFFFE8;
 		}	
 
-    /* blue #2D2D45 
+    /* 
+    
+    blue #2D2D45 
+    gold #CAA64E
+
     blue_menu #42404E
     gold #D7CFC3, #F1EBB9
     red_menu #C0A7AD
     pomidor #C8463F
     white_paper #FBF9FA */
+
+    
