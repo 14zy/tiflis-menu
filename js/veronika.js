@@ -59,7 +59,7 @@ categories.forEach(category => {
         category.rows.forEach(row => {
             
             if (!row.image) {
-                row.image = "empty.png";
+                row.image = "empty3.png";
             }
         
             elHTML = elHTML + `
