@@ -3,6 +3,8 @@ const db = new GoogleSpreadsheetsDb(
     '17wKXW0Mw3TpG-loJx6XifKAEw61am8fVqV8CiCInoj0'
 );
 
+
+
 var categories = [
     {
         ru: "Супы",
@@ -46,6 +48,10 @@ var categories = [
     },
     {
         ru: "Напитки от шефа",
+        en: ""
+    },
+    {
+        ru: "Ночное меню",
         en: ""
     }
 ]
